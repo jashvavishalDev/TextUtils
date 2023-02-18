@@ -59,6 +59,7 @@ function App() {
             <Navbar title='TextUtils' mode={mode} toggleMode={toggleMode} key={new Date()} />
             <Alert alert={alert}/>
             <div className="container my-3">
+                {/* switch not working */}
                 <Switch>
                     <Route exact  path="/">
                         <div className='container'>
@@ -78,3 +79,5 @@ function App() {
 }
 
 export default App
+
+
